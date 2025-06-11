@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Series Parallax Page</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      overflow-x: hidden;
+    }
+    
+    
+    .parallax {
+  
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    
+   
+    #parallax1 {
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80');
+    }
+    
+    #parallax2 {
+      background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1350&q=80');
+    }
+    
+    #parallax3 {
+      background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80');
+    }
+    
+
+    .content-section {
+      background-color: #111;
+      padding: 60px 20px;
+      text-align: center;
+      font-size: 1.4em;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+   
+    .series-title {
+      font-size: 4em;
+      margin-bottom: 10px;
+      color: #ffcc00;
+      text-shadow: 3px 3px 10px rgba(255, 204, 0, 0.8);
+    }
+
+ 
+    .episode-title {
+      font-size: 2em;
+      margin: 15px 0 10px;
+      color: #ff9900;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <section id="parallax1" class="parallax">
+    <div>
+      <div class="series-title">Epic Series</div>
+      Welcome to the Adventure
+    </div>
+  </section>
+  
+  <section class="content-section">
+    <h2 class="episode-title">Episode 1: The Beginning</h2>
+    <p>
+      Dive into the first episode where our hero starts the journey through unknown lands and faces the first challenges of their fate.
+    </p>
+  </section>
+
+  <section id="parallax2" class="parallax">
+    The World Awaits
+  </section>
+
+  <section class="content-section">
+    <h2 class="episode-title">Episode 2: The Conflict</h2>
+    <p>
+      Tensions rise as new enemies emerge and alliances are tested. The plot thickens and the stakes get higher.
+    </p>
+  </section>
+
+  <section id="parallax3" class="parallax">
+    The Final Showdown
+  </section>
+
+  <section class="content-section">
+    <h2 class="episode-title">Episode 3: The Resolution</h2>
+    <p>
+      The climax arrives. Watch as the heroes face their greatest challenge and destiny unfolds.
+    </p>
+  </section>
+
+</body>
+</html>
